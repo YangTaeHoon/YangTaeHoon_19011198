@@ -1,3 +1,11 @@
-a = [1 2; 3 4];
-b = [4 7; 24 32];
-c = a*b
+clear;
+clc;
+close all
+
+%%- function : Perifocal frame ==> ECI frame (Lesson 07 참고)
+%%- function 명 : PQW2ECI
+%%- input : arg_prg, inc_angle, RAAN 
+%%- output : rotation matrix (3-by-3)
+
+function rotation matrix =PQW2ECI[arg_prg, inc_angle, RAAN]
+
